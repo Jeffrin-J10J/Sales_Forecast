@@ -188,7 +188,7 @@ elif page == 'Sales Forecasting':
         # Display model performance
         col1, col2 = st.columns(2)
         with col1:
-            st.metric("Mean Squared Error", f"{mse:,.2f}")
+            st.metric("Avg Revenue Predicted", f"{mse:,.2f}")
         with col2:
             st.metric("R² Score", f"{r2:.3f}")
 
