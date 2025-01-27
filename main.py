@@ -32,7 +32,7 @@ def load_data():
 df = load_data()
 
 # Sidebar
-st.sidebar.image('logo.png', width=250)
+st.sidebar.image('toolfe-logo.png', width=250)
 st.sidebar.title('Navigation')
 page = st.sidebar.radio('Select Page', ['Sales Analytics', 'Sales Forecasting','Ai Dashboard'])
 
