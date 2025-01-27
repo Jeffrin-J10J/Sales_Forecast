@@ -16,7 +16,7 @@ from datetime import timedelta
 from app import main
 
 # Set page config
-st.set_page_config(layout="wide", page_title="Schwing Stetter Sales Analytics")
+st.set_page_config(layout="wide", page_title="Toolfe AISales Analytics")
 
 # Load and prepare data
 @st.cache_data
@@ -38,7 +38,7 @@ page = st.sidebar.radio('Select Page', ['Sales Analytics', 'Sales Forecasting','
 
 # Sales Analytics Page
 if page == 'Sales Analytics':
-    st.title('Schwing Stetter Sales Analytics Dashboard')
+    st.title('Toolfe AISales Analytics Dashboard')
     
     # Top KPIs
     col1, col2, col3, col4 = st.columns(4)
@@ -452,7 +452,7 @@ if st.sidebar.button("Export Forecast Data"):
 
 # Add footer
 st.markdown("---")
-st.markdown("Schwing Stetter Sales Analytics Dashboard - Powerd By Toolfe")
+st.markdown("Toolfe AISales Analytics Dashboard - Powerd By Toolfe")
 
 # Add error handling
 def handle_errors():
