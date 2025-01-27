@@ -16,7 +16,7 @@ from datetime import timedelta
 from app import main
 
 # Set page config
-st.set_page_config(layout="wide", page_title="Toolfe AISales Analytics")
+st.set_page_config(layout="wide", page_title="Toolfe AI Sales Analytics")
 
 # Load and prepare data
 @st.cache_data
@@ -452,7 +452,7 @@ if st.sidebar.button("Export Forecast Data"):
 
 # Add footer
 st.markdown("---")
-st.markdown("Toolfe AISales Analytics Dashboard - Powerd By Toolfe")
+st.markdown("Toolfe AI Sales Analytics Dashboard")
 
 # Add error handling
 def handle_errors():
